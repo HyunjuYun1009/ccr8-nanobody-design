@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pdb
+*.cif
+*.log
+logs/
+.vscode/
+.idea/
+secrets/
+.env
+*.tmp
+results/*/samples/*.pdb
+results/*/alphafold/*.pdb
+!data/input/*.pdb
+!data/reference/*.pdb
