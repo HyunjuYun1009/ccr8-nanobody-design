@@ -80,9 +80,10 @@ Evaluates interface geometry between nanobody and CCR8 receptor.
 
 $$\text{Geometric Score} = 0.40 \times \text{Interface} + 0.25 \times \text{CDR3} + 0.35 \times \text{Hotspot}$$
 
-$$\text{Interface} = \frac{100}{1 + e^{(d-5.0)/1.0}} \times \frac{\text{avg\_pLDDT}}{100}$$
+$$\text{Interface} = \frac{100}{1 + e^{(d-5.0)/1.0}} \times \frac{\text{avg\\_pLDDT}}{100}$$
 
-$$\text{Hotspot} = \frac{100}{1 + e^{(d_{\min}-6.0)/1.5}}$$
+$$\text{Hotspot} = {100 \over{1 + e^{(d_{min} - 6.0) / 1.5}}}$$
+
 
 ### Quality Score (proxy for structural stability)
 
